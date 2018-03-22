@@ -25,6 +25,7 @@
   <remove-project name="platform/build" />
   <remove-project name="platform/build/kati" />
   <remove-project name="platform/external/ant-wireless/ant_native" />
+  <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/fsck_msdos" />
@@ -148,11 +149,11 @@
   <project name="platform_vendor_qcom-opensource_fm" path="vendor/qcom/opensource/fm" remote="aosp-caf" />
   <!-- END AOSP-CAF -->
   <!-- START ATHENE -->
-  <project name="platform_device_motorola_athene" path="device/motorola/athene" remote="aosp-caf" />
-  <project name="platform_kernel_motorola_msm8952" path="kernel/motorola/msm8952" remote="aosp-caf" />
-  <project name="platform_vendor_motorola_athene" path="vendor/motorola" remote="aosp-caf" />
+  <project name="athene-caf/platform_device_motorola_athene" path="device/motorola/athene" remote="github" />
+  <project name="athene-caf/platform_kernel_motorola_msm8952" path="kernel/motorola/msm8952" remote="github" />
+  <project name="athene-caf/platform_vendor_motorola_athene" path="vendor/motorola" remote="github" />
   <!-- BEGIN CAF -->
-  <project name="platform/packages/apps/WallpaperPicker" path="packages/apps/WallpaperPicker" revision="LA.BR.1.3.6_rb1.20" />
+  <project name="athene-caf/platform/packages/apps/WallpaperPicker" path="packages/apps/WallpaperPicker" revision="refs/tags/LA.UM.5.5.r1-05100-8x96.0" />
   <!-- END CAF -->
 
   <!-- BEGIN SUBSTRATUM -->
