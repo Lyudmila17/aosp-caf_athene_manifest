@@ -5,7 +5,7 @@
            revision="refs/heads/cm-14.1" />
 
   <remote  name="aosp-caf"
-           fetch="https://github.com/athene-caf"
+           fetch="https://github.com/aosp-caf"
            revision="refs/heads/n-mr2" />
 
   <remote  name="caf"
