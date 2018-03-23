@@ -90,8 +90,8 @@
   <!-- REMOVE PROJECTS -->
 
   <!-- BEGIN AOSP-CAF -->
-  <project name="platform_device_qcom_common" path="device/qcom/common" remote="aosp-caf" />
-  <project name="platform_device_qcom_sepolicy" path="device/qcom/sepolicy" remote="aosp-caf" />
+  <project name="device_qcom_common" path="device/qcom/common" remote="aosp-caf" />
+  <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" remote="aosp-caf" />
   <project name="platform_art" path="art" remote="aosp-caf" />
   <project name="platform_bionic" path="bionic" remote="aosp-caf" />
   <project name="platform_build" path="build" remote="aosp-caf" >
@@ -149,12 +149,9 @@
   <project name="platform_vendor_qcom-opensource_fm" path="vendor/qcom/opensource/fm" remote="aosp-caf" />
   <!-- END AOSP-CAF -->
   <!-- START ATHENE -->
-  <project name="athene-caf/platform_device_motorola_athene" path="device/motorola/athene" remote="github" />
-  <project name="athene-caf/platform_kernel_motorola_msm8952" path="kernel/motorola/msm8952" remote="github" />
-  <project name="athene-caf/platform_vendor_motorola_athene" path="vendor/motorola" remote="github" />
-  <!-- BEGIN CAF -->
-  <project name="athene-caf/platform/packages/apps/WallpaperPicker" path="packages/apps/WallpaperPicker" revision="refs/tags/LA.UM.5.5.r1-05100-8x96.0" />
-  <!-- END CAF -->
+  <project name="athene-caf/platform_device_motorola_athene" path="device/motorola/athene" remote="github" revision="n-mr2" />
+  <project name="athene-caf/platform_kernel_motorola_msm8952" path="kernel/motorola/msm8952" remote="github" revision="n-mr2" />
+  <project name="athene-caf/platform_vendor_motorola_athene" path="vendor/motorola" remote="github" revision="n-mr2" />
 
   <!-- BEGIN SUBSTRATUM -->
   <project name="substratum/interfacer" path="packages/apps/ThemeInterfacer" remote="github" revision="n-rootless" />
